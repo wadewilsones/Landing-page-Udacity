@@ -63,7 +63,9 @@ p{
 	background-color: #716E77;
 	font-size:24px;
 	color:white;
-	height:70px;
+	display:block;
+	height:60px;
+	padding-top:20px;
 		
 }
 
@@ -73,8 +75,8 @@ p{
 	width:60%;
 	display:block;
 	margin:auto;
-	margin-top:10%;
-border:green 2px solid;
+	
+
 }
 
 
@@ -84,6 +86,7 @@ border:green 2px solid;
 	display:inline;
 	margin-left:30%;
 	margin-right:10%;
+	
 
 }
 
@@ -91,7 +94,10 @@ border:green 2px solid;
 .navigation-bar-container-list li {
 
 	display:inline;
+	margin-left:5px;
+	margin-right:5px;
 	
+
 }
 
 
@@ -101,7 +107,7 @@ border:green 2px solid;
 
 	float:left;
 	display:inline;
-
+	
 }
 
 
