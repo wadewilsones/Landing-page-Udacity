@@ -171,3 +171,44 @@ p{
 
 }
 
+
+/*Second section (About the trip)*/
+
+.section-second-about {
+
+	margin:auto;
+	margin-top:10%;
+	width:60%;
+	display:block;
+	border: green solid 2px;
+	height:720px;
+}
+
+.section-second-about  h2 {
+
+	text-align:center;
+	margin-bottom:5%;
+	color: #716E77;
+
+}
+
+
+.section-about-infoblocks {
+
+	display:flex; 
+	justify-content:space-between;
+	align-items: center;
+	text-align:center;
+
+}
+
+
+.section-about-infoblocks h5 {
+
+	color: #716E77;
+}
+
+
+
+/*Third section (FAQ)*/
+
