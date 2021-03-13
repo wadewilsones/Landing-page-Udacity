@@ -159,4 +159,15 @@ p{
 }
 
 
+.title-page-button {
+
+	font-size:72px;
+	font-family: Bebas Neue;
+	width:360px;
+	height:auto;
+	background:transparent;
+	border:white 4px solid;
+	color:white;
+
+}
 
