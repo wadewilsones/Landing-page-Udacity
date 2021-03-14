@@ -285,11 +285,13 @@ p{
 border:green 2px solid;
 }
 
+
 .form-style {
 
 	border:yellow 2px solid;
 
 }
+
 
 .contact-info-container {
 
@@ -302,3 +304,11 @@ border:green 2px solid;
 
 }
 
+
+.contact-info-container p {
+
+	text-align:center;
+	line-height:2;
+	margin-top:10px;
+
+}
