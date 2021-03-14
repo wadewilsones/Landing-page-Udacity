@@ -180,14 +180,13 @@ p{
 	margin-top:10%;
 	width:60%;
 	display:block;
-	border: green solid 2px;
 	height:720px;
 }
 
 .section-second-about  h2 {
 
 	text-align:center;
-	margin-bottom:5%;
+	margin-bottom:10%;
 	color: #716E77;
 
 }
@@ -211,4 +210,95 @@ p{
 
 
 /*Third section (FAQ)*/
+
+
+.section-Faq {
+
+	background-image:url(http://res.cloudinary.com/simpleview/image/upload/v1574085889/clients/norway/bryggen_wharf_bergen_hordaland_fjord_norway_photo_florian_olbrechts_34ad36ea-f7bc-4150-b48b-af2c2c14628f.jpg);
+ 	background-repeat: no-repeat;
+	background-size: cover;	
+	height:984px;
+	width:100%;
+
+}
+
+
+.section-Faq-container {
+
+	width:60%;
+	display:block;
+	margin:auto;
+	padding-top:10%;
+}
+
+.section-Faq-container h2 {
+
+	color:white;
+	text-align:center;
+	padding-bottom:2%;
+
+}
+
+
+.section-Faq-container h3 {
+
+	color:#E79686;
+	text-align:center;
+	line-height:2.5;
+}
+
+
+.section-Faq-container h6 {
+
+	color:white;
+	text-align:center;
+	padding-bottom:5%;
+}
+
+
+/*Last  section (FAQ)*/
+
+.section-contacts{
+
+	width:60%;
+	padding-top:10%;
+	display:block;
+	margin:auto;
+	border: 2px green solid;
+
+}
+
+
+.section-contacts h2 {
+
+	text-align: center;
+	color:#716E77;
+	margin-bottom:10%;
+}
+
+
+.section-contacts-container {
+
+	display:flex;
+	align-items:center;
+	justify-content: space-around;
+border:green 2px solid;
+}
+
+.form-style {
+
+	border:yellow 2px solid;
+
+}
+
+.contact-info-container {
+
+	
+	display:flex;
+	align-items:center;
+	justify-content: space-around;
+	width:50%;
+	border:blue 2px solid;
+
+}
 
