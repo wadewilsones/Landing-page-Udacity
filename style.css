@@ -172,6 +172,20 @@ p{
 }
 
 
+.title-page-button:hover {
+
+	font-size:72px;
+	font-family: Bebas Neue;
+	width:360px;
+	height:auto;
+	background:white;
+	border:none;
+	color:black;
+
+}
+
+
+
 /*Second section (About the trip)*/
 
 .section-second-about {
@@ -264,7 +278,6 @@ p{
 	padding-top:10%;
 	display:block;
 	margin:auto;
-	border: 2px green solid;
 
 }
 
@@ -284,13 +297,86 @@ p{
 	justify-content: space-around;
 
 }
-
+/*Form*/
 
 .form-style {
 
-	border:yellow 2px solid;
+	
+	height:auto;
+
 
 }
+
+
+.form-style h4{
+
+line-height: 2;
+
+}
+
+
+.form-style label {
+
+	color:#716E77;
+	font-size:18px;
+	line-height:2;
+
+}
+
+
+.form-field {
+
+	border:black 2px solid;
+	width:280px;
+	height:48px;
+
+}
+
+#form-submit-btn {
+
+	border:black 2px solid;
+	width:168px;
+	height:48px;
+	text-transform:uppercase;
+	display:block;
+	margin:auto;
+	font-size: 24px;
+	font-family:Bebas Neue;
+	margin-top:10%;
+	padding-top:2px;
+	background-color:transparent;
+
+
+}
+
+
+#form-submit-btn:hover {
+
+	border:black 2px solid;
+	width:168px;
+	height:48px;
+	text-transform:uppercase;
+	display:block;
+	margin:auto;
+	font-size: 24px;
+	font-family:Bebas Neue;
+	margin-top:10%;
+	padding-top:2px;
+	background-color:black;
+	color:white;
+
+
+}
+
+input[type=text] {
+  	width: 100%;
+  	padding: 12px 20px;
+  	box-sizing: border-box;
+	font-size:18px;
+}
+
+
+/*Form ends*/
 
 
 .contact-info-container {
@@ -400,3 +486,4 @@ footer {
 	font-weight: normal;
 
 }
+
