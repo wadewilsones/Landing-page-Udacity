@@ -46,14 +46,32 @@ h5{
 h6{
 
 	font-size:22px;
-
+	font-style: normal;
+	font-weight: normal;
 }
 
 
 p{
 	font-size:18px;
+	font-style: normal;
+	font-weight: normal;
 }
 
+
+a {
+
+	color:white;
+	text-decoration:none;
+
+}
+
+a:hover {
+
+	color:white;
+	text-decoration: underline solid 2px white;
+
+
+}
 
 
 /*Navigation bar and header*/
@@ -127,7 +145,8 @@ p{
 
 .section-title-page {
 
-	background-image:url(https://cdn.pixabay.com/photo/2017/02/17/15/02/trondheim-2074284_960_720.jpg);
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.7)),url(https://cdn.pixabay.com/photo/2017/02/17/15/02/trondheim-2074284_960_720.jpg);
  	background-repeat: no-repeat;
 	background-size: cover;	
 	height:984px;
@@ -191,7 +210,7 @@ p{
 .section-second-about {
 
 	margin:auto;
-	margin-top:10%;
+	padding-top:10%;
 	width:60%;
 	display:block;
 	height:720px;
@@ -228,7 +247,8 @@ p{
 
 .section-Faq {
 
-	background-image:url(http://res.cloudinary.com/simpleview/image/upload/v1574085889/clients/norway/bryggen_wharf_bergen_hordaland_fjord_norway_photo_florian_olbrechts_34ad36ea-f7bc-4150-b48b-af2c2c14628f.jpg);
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.7)),url(http://res.cloudinary.com/simpleview/image/upload/v1574085889/clients/norway/bryggen_wharf_bergen_hordaland_fjord_norway_photo_florian_olbrechts_34ad36ea-f7bc-4150-b48b-af2c2c14628f.jpg);
  	background-repeat: no-repeat;
 	background-size: cover;	
 	height:984px;
