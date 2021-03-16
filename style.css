@@ -1,3 +1,6 @@
+@import "style-mob.css";
+
+
 * {margin:0;
 padding:0;}
 
@@ -7,6 +10,12 @@ body {
 	font-family: Bebas Neue;
 	
 }
+
+@media (min-width:1200px) {
+
+
+
+/*Desktop version*/
 
 h1 { 
 	font-size:288px;
@@ -168,13 +177,13 @@ a:hover {
 .section-title-page-container h3 {
 
 	color:#E79686;
+	
 
 }
 
 .section-title-page-container h1 {
 
 	line-height:1;
-
 }
 
 
@@ -214,6 +223,7 @@ a:hover {
 	width:60%;
 	display:block;
 	height:720px;
+	padding-bottom:5%;
 }
 
 .section-second-about  h2 {
@@ -231,6 +241,23 @@ a:hover {
 	justify-content:space-between;
 	align-items: center;
 	text-align:center;
+	width:100%;
+	
+
+}
+
+.about-pics {
+
+	width: 361px;
+	height: 303px;
+	display:block;
+}
+
+
+.about-pics-middle {
+
+	width: 419px;
+	height: 357px;
 
 }
 
@@ -238,6 +265,7 @@ a:hover {
 .section-about-infoblocks h5 {
 
 	color: #716E77;
+	margin-top:5%;
 }
 
 
@@ -248,10 +276,11 @@ a:hover {
 .section-Faq {
 
 	background-image:linear-gradient(rgba(0, 0, 0, 0.5),
-                       rgba(0, 0, 0, 0.7)),url(http://res.cloudinary.com/simpleview/image/upload/v1574085889/clients/norway/bryggen_wharf_bergen_hordaland_fjord_norway_photo_florian_olbrechts_34ad36ea-f7bc-4150-b48b-af2c2c14628f.jpg);
+        rgba(0, 0, 0, 0.7)),url(http://res.cloudinary.com/simpleview/image/upload/v1574085889/clients/norway/bryggen_wharf_bergen_hordaland_fjord_norway_photo_florian_olbrechts_34ad36ea-f7bc-4150-b48b-af2c2c14628f.jpg);
  	background-repeat: no-repeat;
 	background-size: cover;	
-	height:984px;
+	min-height:984px;
+	height:auto;
 	width:100%;
 
 }
@@ -290,7 +319,7 @@ a:hover {
 }
 
 
-/*Last  section (FAQ)*/
+/*Last  section (Contacts)*/
 
 .section-contacts{
 
@@ -448,7 +477,7 @@ input[type=text] {
 	
 }
 
-
+/*Footer*/
 
 footer {
 
@@ -507,3 +536,4 @@ footer {
 
 }
 
+}
