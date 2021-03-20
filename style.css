@@ -1,541 +1,360 @@
 @import "style-mob.css";
 @import "style-tablet.css";
-
-
-
-* {margin:0;
-padding:0;}
+* {
+	margin: 0;
+	padding: 0;
+}
 
 body {
-	margin:0;
-	padding:0;
+	margin: 0;
+	padding: 0;
 	font-family: Bebas Neue;
-	
 }
 
 @media (min-width:1200px) {
-
-
-
-/*Desktop version*/
-
-h1 { 
-	font-size:288px;
-	color:white;
-
-}
-
-
-h2 {
-
-	font-size:72px;
-
-}
-
-
-h3{
-
-	font-size:48px;
-
-}
-
-
-h4{	
-
-	font-size:36px;
-
-}
-
-
-h5{
-	font-size:24px;
-	font-style: normal;
-	font-weight: normal;
-}
-
-
-h6{
-
-	font-size:22px;
-	font-style: normal;
-	font-weight: normal;
-}
-
-
-p{
-	font-size:18px;
-	font-style: normal;
-	font-weight: normal;
-}
-
-
-a {
-
-	color:white;
-	text-decoration:none;
-
-}
-
-a:hover {
-
-	color:white;
-	text-decoration: underline solid 2px white;
-
-
-}
-
-
-/*Navigation bar and header*/
-
-
-.navigation-bar {
-
-	background-color: #716E77;
-	font-size:24px;
-	color:white;
-	display:block;
-	height:60px;
-	padding-top:20px;
-		
-}
-
-.navigation-bar-container {
-
-	
-	width:60%;
-	display:block;
-	margin:auto;
-	
-
-}
-
-
-.navigation-bar-container-list { 
-
-	
-	display:inline;
-	margin-left:30%;
-	margin-right:10%;
-	
-
-}
-
-
-.navigation-bar-container-list li {
-
-	display:inline;
-	margin-left:5px;
-	margin-right:5px;
-	
-
-}
-
-
-
-.navigation-bar-container-logo {
-
-
-	float:left;
-	display:inline;
-	
-}
-
-
-
-.navigation-bar-container-phone-number {
-
-	float:right;
-	display:inline;
-	
-}
-
-
-/*Main title page*/
-
-
-
-.section-title-page {
-
-	background-image:linear-gradient(rgba(0, 0, 0, 0.5),
-                       rgba(0, 0, 0, 0.7)),url(https://cdn.pixabay.com/photo/2017/02/17/15/02/trondheim-2074284_960_720.jpg);
- 	background-repeat: no-repeat;
-	background-size: cover;	
-	height:984px;
-	width:100%;
-
-}
-
-
-.section-title-page-container {
-
-	width:60%;
-	display:block;
-	margin:auto;
-	padding-top:10%;
-
-}
-
-
-.section-title-page-container h3 {
-
-	color:#E79686;
-	
-
-}
-
-.section-title-page-container h1 {
-
-	line-height:1;
-}
-
-
-.title-page-button {
-
-	font-size:72px;
-	font-family: Bebas Neue;
-	width:360px;
-	height:auto;
-	background:transparent;
-	border:white 4px solid;
-	color:white;
-
-}
-
-
-.title-page-button:hover {
-
-	font-size:72px;
-	font-family: Bebas Neue;
-	width:360px;
-	height:auto;
-	background:white;
-	border:none;
-	color:black;
-
-}
-
-
-
-/*Second section (About the trip)*/
-
-.section-second-about {
-
-	margin:auto;
-	padding-top:10%;
-	width:60%;
-	display:block;
-	height:720px;
-	padding-bottom:5%;
-}
-
-.section-second-about  h2 {
-
-	text-align:center;
-	margin-bottom:10%;
-	color: #716E77;
-
-}
-
-
-.section-about-infoblocks {
-
-	display:flex; 
-	justify-content:space-between;
-	align-items: center;
-	text-align:center;
-	width:100%;
-	
-
-}
-
-.about-pics {
-
-	width: 361px;
-	height: 303px;
-	display:block;
-}
-
-
-.about-pics-middle {
-
-	width: 419px;
-	height: 357px;
-
-}
-
-
-.section-about-infoblocks h5 {
-
-	color: #716E77;
-	margin-top:5%;
-}
-
-
-
-/*Third section (FAQ)*/
-
-
-.section-Faq {
-
-	background-image:linear-gradient(rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.7)),url(http://res.cloudinary.com/simpleview/image/upload/v1574085889/clients/norway/bryggen_wharf_bergen_hordaland_fjord_norway_photo_florian_olbrechts_34ad36ea-f7bc-4150-b48b-af2c2c14628f.jpg);
- 	background-repeat: no-repeat;
-	background-size: cover;	
-	min-height:984px;
-	height:auto;
-	width:100%;
-
-}
-
-
-.section-Faq-container {
-
-	width:60%;
-	display:block;
-	margin:auto;
-	padding-top:10%;
-}
-
-.section-Faq-container h2 {
-
-	color:white;
-	text-align:center;
-	padding-bottom:2%;
-
-}
-
-
-.section-Faq-container h3 {
-
-	color:#E79686;
-	text-align:center;
-	line-height:2.5;
-}
-
-
-.section-Faq-container h6 {
-
-	color:white;
-	text-align:center;
-	padding-bottom:5%;
-}
-
-
-/*Last  section (Contacts)*/
-
-.section-contacts{
-
-	width:60%;
-	padding-top:10%;
-	display:block;
-	margin:auto;
-
-}
-
-
-.section-contacts h2 {
-
-	text-align: center;
-	color:#716E77;
-	margin-bottom:10%;
-}
-
-
-.section-contacts-container {
-
-	display:flex;
-	align-items:center;
-	justify-content: space-around;
-
-}
-/*Form*/
-
-.form-style {
-
-	
-	height:auto;
-
-
-}
-
-
-.form-style h4{
-
-line-height: 2;
-
-}
-
-
-.form-style label {
-
-	color:#716E77;
-	font-size:18px;
-	line-height:2;
-
-}
-
-
-.form-field {
-
-	border:black 2px solid;
-	width:280px;
-	height:48px;
-
-}
-
-#form-submit-btn {
-
-	border:black 2px solid;
-	width:168px;
-	height:48px;
-	text-transform:uppercase;
-	display:block;
-	margin:auto;
-	font-size: 24px;
-	font-family:Bebas Neue;
-	margin-top:10%;
-	padding-top:2px;
-	background-color:transparent;
-
-
-}
-
-
-#form-submit-btn:hover {
-
-	border:black 2px solid;
-	width:168px;
-	height:48px;
-	text-transform:uppercase;
-	display:block;
-	margin:auto;
-	font-size: 24px;
-	font-family:Bebas Neue;
-	margin-top:10%;
-	padding-top:2px;
-	background-color:black;
-	color:white;
-
-
-}
-
-input[type=text] {
-  	width: 100%;
-  	padding: 12px 20px;
-  	box-sizing: border-box;
-	font-size:18px;
-}
-
-
-/*Form ends*/
-
-
-.contact-info-container {
-
-	
-	display:flex;
-	align-items:center;
-	justify-content: space-around;
-	width:50%;
-
-}
-
-
-.contact-info-container p {
-
-	text-align:center;
-	line-height:2;
-	margin-top:10px;
-
-}
-
-.social-media p {
-
-	margin-left:5px;
-
-}
-
-
-.social-media-icons-container-twitter {
-
-	display:flex;
-	align-items:center;
-	
-
-}
-
-.social-media-icons-container-facebook {
-
-	display:flex;
-	align-items:center;
-	
-
-}
-
-.social-media-icons-container-instagram {
-
-	display:flex;
-	align-items:center;
-	
-}
-
-/*Footer*/
-
-footer {
-
-	background-color:#505050;
-	color:white;
-	margin-top:10%;
-
-}
-
-
-.footer-container {
-
-	width: 60%;
-	margin:auto;
-	display:flex;
-	align-items: center;
-	justify-content:space-around;
-	padding-top:30px;
-	padding-bottom:30px;
-
-}
-
-
-.footer-social-info { 
-
-	display:flex;
-	align-items: center;
-	justify-content:space-around;
-	margin-top:10%;
-
-
-}
-
-
-.footer-social-info i {
-
-	margin-right:10px;
-	
-}
-
-
-.footer-social-info p {
-
-	margin-right:15px;
-	font-style: normal;
-	font-weight: normal;
-}
-
-
-.footer-navigation-menu li {
-
-	display:inline;
-	padding-right:10px;
-	font-style: normal;
-	font-weight: normal;
-
-}
-
+	/*Desktop version*/
+	h1 {
+		font-size: 288px;
+		color: white;
+	}
+	h2 {
+		font-size: 72px;
+	}
+	h3 {
+		font-size: 48px;
+	}
+	h4 {
+		font-size: 36px;
+	}
+	h5 {
+		font-size: 24px;
+		font-style: normal;
+		font-weight: normal;
+	}
+	h6 {
+		font-size: 22px;
+		font-style: normal;
+		font-weight: normal;
+	}
+	p {
+		font-size: 18px;
+		font-style: normal;
+		font-weight: normal;
+	}
+	a {
+		color: white;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #E79686;
+		text-decoration: underline solid 2px #E79686;
+	}
+	/*Navigation bar and header*/
+	.navigation-bar {
+		background-color: #716E77;
+		font-size: 24px;
+		color: white;
+		display: block;
+		height: 60px;
+		padding-top: 20px;
+		position: fixed;
+		z-index: 3;
+		width: 100%;
+	}
+	.navigation-bar-container {
+		width: 60%;
+		display: flex;
+		justify-content: space-between;
+		margin: auto;
+	}
+	#nav-icon {
+		display: none;
+	}
+	#side-panel {
+		display: none;
+	}
+	.panel {
+		display: none;
+	}
+	.navigation-bar-container-list {
+		display: inline;
+		margin-left: 7%;
+	}
+	.navigation-bar-container-list li {
+		display: inline;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.navigation-bar-container-logo {
+		display: inline;
+	}
+	.navigation-bar-container-phone-number {
+		display: inline;
+	}
+	/*Main title page*/
+	.section-title-page {
+		min-height: 984px;
+		width: 100%;
+	}
+	#cover-video {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		min-width: 100%;
+		min-height: 100%;
+		filter: brightness(45%);
+	}
+	.section-title-page-container {
+		width: 60%;
+		display: block;
+		margin: auto;
+		padding-top: 20%;
+	}
+	.content {
+		position: relative;
+		z-index: 2;
+	}
+	.section-title-page-container h3 {
+		color: #E79686;
+	}
+	.section-title-page-container h1 {
+		line-height: 1;
+	}
+	.title-page-button {
+		font-size: 72px;
+		font-family: Bebas Neue;
+		width: 360px;
+		height: auto;
+		background: transparent;
+		border: white 4px solid;
+		color: white;
+	}
+	.title-page-button:hover {
+		font-size: 72px;
+		font-family: Bebas Neue;
+		width: 360px;
+		height: auto;
+		background: white;
+		border: none;
+		color: black;
+	}
+	/*Second section (About the trip)*/
+	.section-second-about {
+		margin: auto;
+		width: 60%;
+		display: block;
+		height: 720px;
+		margin-top: 15%;
+		padding-top: 10%;
+		padding-bottom: 10%;
+		margin-bottom: 5%;
+	}
+	.section-second-about h2 {
+		text-align: center;
+		margin-bottom: 10%;
+		color: #716E77;
+	}
+	.section-about-infoblocks {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		text-align: center;
+		width: 100%;
+	}
+	.about-pics {
+		width: 361px;
+		height: 303px;
+		display: block;
+	}
+	.about-pics-middle {
+		width: 419px;
+		height: 357px;
+	}
+	.section-about-infoblocks h5 {
+		color: #716E77;
+		margin-top: 5%;
+	}
+	.button-scroll-top {
+		position: fixed;
+		bottom: 20%;
+		right: 10%;
+		opacity: 70%;
+	}
+	#top-btn {
+		width: 40px;
+		height: 35px;
+		padding-top: 5px;
+		cursor: pointer;
+		background-color: #bbbbbb4f;
+		border-radius: 5px;
+	}
+	#top-btn:hover {
+		width: 40px;
+		height: 35px;
+		padding-top: 5px;
+		cursor: pointer;
+		background-color: #413f44;
+		border-radius: 5px;
+		color: white;
+	}
+	/*Third section (FAQ)*/
+	.section-Faq {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../img/mount.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		min-height: 984px;
+		height: auto;
+		width: 100%;
+		padding-bottom: 10%;
+	}
+	.section-Faq-container {
+		width: 60%;
+		display: block;
+		margin: auto;
+		padding-top: 10%;
+	}
+	.section-Faq-container h2 {
+		color: white;
+		text-align: center;
+		padding-bottom: 2%;
+	}
+	.section-Faq-container h3 {
+		color: #E79686;
+		text-align: center;
+		line-height: 2.5;
+	}
+	.section-Faq-container h6 {
+		color: white;
+		text-align: center;
+		padding-bottom: 5%;
+	}
+	/*Last  section (Contacts)*/
+	.section-contacts {
+		width: 60%;
+		padding-top: 10%;
+		display: block;
+		margin: auto;
+	}
+	.section-contacts h2 {
+		text-align: center;
+		color: #716E77;
+		margin-bottom: 10%;
+	}
+	.section-contacts-container {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+	/*Form*/
+	.form-style {
+		height: auto;
+	}
+	.form-style h4 {
+		line-height: 2;
+	}
+	.form-style label {
+		color: #716E77;
+		font-size: 18px;
+		line-height: 2;
+	}
+	.form-field {
+		border: black 2px solid;
+		width: 280px;
+		height: 48px;
+	}
+	#form-submit-btn {
+		border: black 2px solid;
+		width: 168px;
+		height: 48px;
+		text-transform: uppercase;
+		display: block;
+		margin: auto;
+		font-size: 24px;
+		font-family: Bebas Neue;
+		margin-top: 10%;
+		padding-top: 2px;
+		background-color: transparent;
+	}
+	#form-submit-btn:hover {
+		border: black 2px solid;
+		width: 168px;
+		height: 48px;
+		text-transform: uppercase;
+		display: block;
+		margin: auto;
+		font-size: 24px;
+		font-family: Bebas Neue;
+		margin-top: 10%;
+		padding-top: 2px;
+		background-color: black;
+		color: white;
+	}
+	input[type=text] {
+		width: 100%;
+		padding: 12px 20px;
+		box-sizing: border-box;
+		font-size: 18px;
+	}
+	/*Form ends*/
+	.contact-info-container {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		width: 50%;
+	}
+	.contact-info-container p {
+		text-align: center;
+		line-height: 2;
+		margin-top: 10px;
+	}
+	.social-media p {
+		margin-left: 5px;
+	}
+	.social-media-icons-container-twitter {
+		display: flex;
+		align-items: center;
+	}
+	.social-media-icons-container-facebook {
+		display: flex;
+		align-items: center;
+	}
+	.social-media-icons-container-instagram {
+		display: flex;
+		align-items: center;
+	}
+	/*Footer*/
+	footer {
+		background-color: #505050;
+		color: white;
+		margin-top: 10%;
+	}
+	.footer-container {
+		width: 60%;
+		margin: auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.footer-social-info {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		margin-top: 10%;
+	}
+	.footer-social-info i {
+		margin-right: 10px;
+	}
+	.footer-social-info p {
+		margin-right: 15px;
+		font-style: normal;
+		font-weight: normal;
+	}
+	.footer-navigation-menu li {
+		display: inline;
+		padding-right: 10px;
+		font-style: normal;
+		font-weight: normal;
+	}
 }
