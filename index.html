@@ -1,150 +1,176 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    	<title>Norway bus tour!</title>
-    	<link rel="stylesheet" href="css/style.css">
-    	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas Neue">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<script src="https://kit.fontawesome.com/0d5afa920e.js" crossorigin="anonymous"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="js/app.js"></script>
-  </head>
-  <body>
-    <header>
-      <nav class = "navigation-bar">
-	<div class = "navigation-bar-container">
-        	<h5 class ="navigation-bar-container-logo">Travel In
-				<!--Side panel for mobiles and tables-->
-				<input type="checkbox" id = "side-panel"/>
-				<div class ="panel">
-					<label class ="panel-close-btn" for="side-panel"><span class="material-icons">
-						clear</span></label>
-					<ul class = "navigation-bar-container-list-panel">
-						<a href = "#title"><li>Home</li></a>
-						<a href = "#about"><li>About</li></a>
-						<a href = "#Faq"><li>Faq</li></a>
-						<a href = "#contacts"><li>Contacts</li></a>
-					  </ul>
-				</div>
-				<div class = "meny-button">
-					<label class = "button-1" for ="side-panel">
-					<div class ="btn open"><span class="material-icons"  id ="nav-icon" style = "font-size:40px;">dehaze</span></div>
-					<div class ="btn close"> <span class="material-icons"  id ="nav-icon" style = "font-size:40px;">dehaze</span></div>
-				</label>
-				</div>
-			</h5>
-				<!--Side panel for mobiles and tables ends-->
-       			 <ul class = "navigation-bar-container-list">
-          		<a href = "#title"><li>Home</li></a>
-          		<a href = "#about"><li>About</li></a>
-          		<a href = "#Faq"><li>Faq</li></a>
-          		<a href = "#contacts"><li>Contacts</li></a>
-        		</ul>
- 		<h5 class = "navigation-bar-container-phone-number"><span class="material-icons" style="font-size:20px; color:white; margin-right:5px;">call</span>+ 1 (111) 123-43-6789</h5>
-	</div>
-      </nav>
-    </header>
-    <main>
-      <section class = "section-title-page" id = "title">
-<div class = "section-title-page-container">
-	<video autoplay muted loop id= "cover-video">
-	<source src="/Работа/udacity/Landing-page-Udacity-main/img/main.mp4" ></video>
-	<div class = "content">
-        <h3>Bus Tour In</h3>
-        <h1>Norway</h1>
-        <input type ="button" value ="Fill In" class = "title-page-button">
-	</div>
-</div>
-      </section>
-      <section class = "section-second-about"  id = "about">
-	  
-       		<h2>About the tour</h2>
-		<div class = "section-about-infoblocks">
-			<div class = "section-about-infoblocks-1">
-        			<img src ="https://cdn.pixabay.com/photo/2015/06/08/15/02/breakfast-801827_960_720.jpg" alt ="Hotel" class = "about-pics"><h5>5 days and 4 night in a cozy atmosphere hotel</h5>
-			</div>
-			<div class = "section-about-infoblocks-2">
-        			<img src ="https://cdn.pixabay.com/photo/2020/04/11/14/42/street-5030692_960_720.jpg" alt ="City" class ="about-pics-middle"> <h5>3 cities: Oslo, Tromsø, Bergen </h5>
-			</div>
-			<div class = "section-about-infoblocks-3">
-       				<img src ="https://cdn.pixabay.com/photo/2020/03/27/15/31/norway-4973912_960_720.jpg" alt ="Mountains" class ="about-pics"> <h5>only 500$ per person for a whole week in Norway</h5>
-	 	</div>
-		 <div class="button-scroll-top" ><span class="material-icons"  style="font-size:30px;"id = "top-btn">keyboard_arrow_up</span></div>
-      </section>
-      <section class = "section-Faq" id = "Faq">
-	<div class = "section-Faq-container">
-          <h2>Faq</h2>
-          <h3>What type of transport is used during travel?</h3>
-          <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-           labore et dolore magna aliqua. 
-          </h6>
-          <h3>Will there be free time for shopping during the tour?</h3>
-          <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-          labore et dolore magna aliqua. 
-          </h6>
-          <h3>Is breakfast included at the hotel?</h3>
-          <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-          labore et dolore magna aliqua. 
-          </h6>
-	</div>
-      </section>
-      <section class = "section-contacts" id = "contacts">
-        <h2>Contacts</h2>
-	<div class = "section-contacts-container">
-        	<div class = "form-style">
-          	  <form>
-<h4>Get in Touch:</h4>
-<label for = "Fname">Name:</label></br>
-<input type = "text" class= "form-field" name = "Fname"></br>
-<label for = "Email">E-mail:</label></br>
-<input type = "text" class= "form-field" name = "Email"></br>
-<input type = "submit" value = "submit" id= "form-submit-btn">
-          	  </form>
-        	</div>
-		<div class = "contact-info-container">
-        		<div class = "contact-mail-and-phone">
-          	  	 	  <p><span class="material-icons" style="font-size:60px">call</span></p>
-				  <p>+1 (123) 456-7890</p>
-          		 	  <p><span class="material-icons" style="font-size:60px">email</span></p>
-				  <p>Travelinninfo@travelin.com</p>
-			</div>
-        		<div class = "social-media">
-				<div class = "social-media-icons-container-twitter" style ="font-size:30px;">
-          	  	  	  <i class="fab fa-twitter-square"></i><p>@travelintwitter</p>
-				</div>
-				<div class = "social-media-icons-container-facebook" style ="font-size:30px;">
-          	  	  	  <i class="fab fa-facebook-square"></i><p>Travel_in</p>
-				</div>
-				<div class = "social-media-icons-container-instagram" style ="font-size:30px;">
-          	  	  	  <i class="fab fa-instagram-square"></i><p>Travel_in</p>
-				</div>
-        		</div>
-		</div>
-      </section>
-    </main>
-    <footer>
-	<div class = "footer-container">
-	  <div class = "footer-container-info-and-social">
-      		<div class = "footer-contact-info">
-        	  <p><span class="material-icons" style="font-size:20px; color:white; margin-right:5px;">call</span>+1 (123) 456-7890</p>
-        	  <p><span class="material-icons" style="font-size:20px; color:white; margin-right:5px;">email</span>Travelinninfo@travelin.com</p>
-      		</div>
-      		<div class = "footer-social-info">
-        	   <i class="fab fa-twitter-square"></i><p>@travelin</p>
-        	  <i class="fab fa-facebook-square"></i><p>Travel_in</p>
-       		  <i class="fab fa-instagram-square"></i><p>Travelinn</p>
-      		</div>
-		</div>
-      		<div class = "footer-navigation-menu">
-        		<ul>
-          		  <li>Home</li>
-          		  <li>About</li>
-          		  <li>Faq</li>
-          		  <li>Contacts</li>
-        		</ul>
-      		</div>
-	</div>
-    </footer>
-  </body>
+   <head>
+      <title>Norway bus tour!</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas Neue">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <script src="https://kit.fontawesome.com/0d5afa920e.js" crossorigin="anonymous"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="js/app.js"></script>
+   </head>
+   <body>
+      <header>
+         <nav class = "navigation-bar">
+            <div class = "navigation-bar-container">
+               <h5 class ="navigation-bar-container-logo">
+                  Travel In
+                  <!--Side panel for mobiles and tables-->
+                  <input type="checkbox" id = "side-panel"/>
+                  <div class ="panel">
+                     <label class ="panel-close-btn" for="side-panel"><span class="material-icons">
+                     clear</span></label>
+                     <ul class = "navigation-bar-container-list-panel">
+                        <a href = "#title">
+                           <li>Home</li>
+                        </a>
+                        <a href = "#about">
+                           <li>About</li>
+                        </a>
+                        <a href = "#Faq">
+                           <li>Faq</li>
+                        </a>
+                        <a href = "#contacts">
+                           <li>Contacts</li>
+                        </a>
+                     </ul>
+                  </div>
+                  <div class = "meny-button">
+                     <label class = "button-1" for ="side-panel">
+                        <div class ="btn open"><span class="material-icons"  id ="nav-icon" style = "font-size:40px;">dehaze</span></div>
+                        <div class ="btn close"> <span class="material-icons"  id ="nav-icon" style = "font-size:40px;">dehaze</span></div>
+                     </label>
+                  </div>
+               </h5>
+               <!--Side panel for mobiles and tables ends-->
+               <ul class = "navigation-bar-container-list">
+                  <a href = "#title">
+                     <li>Home</li>
+                  </a>
+                  <a href = "#about">
+                     <li>About</li>
+                  </a>
+                  <a href = "#Faq">
+                     <li>Faq</li>
+                  </a>
+                  <a href = "#contacts">
+                     <li>Contacts</li>
+                  </a>
+               </ul>
+               <h5 class = "navigation-bar-container-phone-number"><span class="material-icons" style="font-size:20px; color:white; margin-right:5px;">call</span>+ 1 (111) 123-43-6789</h5>
+            </div>
+         </nav>
+      </header>
+      <main>
+         <section class = "section-title-page" id = "title">
+            <div class = "section-title-page-container">
+               <video autoplay muted loop id= "cover-video">
+                  <source src="/Работа/udacity/Landing-page-Udacity-main/img/main.mp4" >
+               </video>
+               <div class = "content">
+                  <h3>Bus Tour In</h3>
+                  <h1>Norway</h1>
+                  <input type ="button" value ="Fill In" class = "title-page-button">
+               </div>
+            </div>
+         </section>
+         <section class = "section-second-about"  id = "about">
+            <h2>About the tour</h2>
+            <div class = "section-about-infoblocks">
+            <div class = "section-about-infoblocks-1">
+               <img src ="https://cdn.pixabay.com/photo/2015/06/08/15/02/breakfast-801827_960_720.jpg" alt ="Hotel" class = "about-pics">
+               <h5>5 days and 4 night in a cozy atmosphere hotel</h5>
+            </div>
+            <div class = "section-about-infoblocks-2">
+               <img src ="https://cdn.pixabay.com/photo/2020/04/11/14/42/street-5030692_960_720.jpg" alt ="City" class ="about-pics-middle"> 
+               <h5>3 cities: Oslo, Tromsø, Bergen </h5>
+            </div>
+            <div class = "section-about-infoblocks-3">
+               <img src ="https://cdn.pixabay.com/photo/2020/03/27/15/31/norway-4973912_960_720.jpg" alt ="Mountains" class ="about-pics"> 
+               <h5>only 500$ per person for a whole week in Norway</h5>
+            </div>
+            <div class="button-scroll-top" ><span class="material-icons"  style="font-size:30px;"id = "top-btn">keyboard_arrow_up</span></div>
+         </section>
+         <section class = "section-Faq" id = "Faq">
+            <div class = "section-Faq-container">
+               <h2>Faq</h2>
+               <h3>What type of transport is used during travel?</h3>
+               <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                  labore et dolore magna aliqua. 
+               </h6>
+               <h3>Will there be free time for shopping during the tour?</h3>
+               <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                  labore et dolore magna aliqua. 
+               </h6>
+               <h3>Is breakfast included at the hotel?</h3>
+               <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                  labore et dolore magna aliqua. 
+               </h6>
+            </div>
+         </section>
+         <section class = "section-contacts" id = "contacts">
+            <h2>Contacts</h2>
+            <div class = "section-contacts-container">
+            <div class = "form-style">
+               <form>
+                  <h4>Get in Touch:</h4>
+                  <label for = "Fname">Name:</label></br>
+                  <input type = "text" class= "form-field" name = "Fname"></br>
+                  <label for = "Email">E-mail:</label></br>
+                  <input type = "text" class= "form-field" name = "Email"></br>
+                  <input type = "submit" value = "submit" id= "form-submit-btn">
+               </form>
+            </div>
+            <div class = "contact-info-container">
+               <div class = "contact-mail-and-phone">
+                  <p><span class="material-icons" style="font-size:60px">call</span></p>
+                  <p>+1 (123) 456-7890</p>
+                  <p><span class="material-icons" style="font-size:60px">email</span></p>
+                  <p>Travelinninfo@travelin.com</p>
+               </div>
+               <div class = "social-media">
+                  <div class = "social-media-icons-container-twitter" style ="font-size:30px;">
+                     <i class="fab fa-twitter-square"></i>
+                     <p>@travelintwitter</p>
+                  </div>
+                  <div class = "social-media-icons-container-facebook" style ="font-size:30px;">
+                     <i class="fab fa-facebook-square"></i>
+                     <p>Travel_in</p>
+                  </div>
+                  <div class = "social-media-icons-container-instagram" style ="font-size:30px;">
+                     <i class="fab fa-instagram-square"></i>
+                     <p>Travel_in</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer>
+         <div class = "footer-container">
+            <div class = "footer-container-info-and-social">
+               <div class = "footer-contact-info">
+                  <p><span class="material-icons" style="font-size:20px; color:white; margin-right:5px;">call</span>+1 (123) 456-7890</p>
+                  <p><span class="material-icons" style="font-size:20px; color:white; margin-right:5px;">email</span>Travelinninfo@travelin.com</p>
+               </div>
+               <div class = "footer-social-info">
+                  <i class="fab fa-twitter-square"></i>
+                  <p>@travelin</p>
+                  <i class="fab fa-facebook-square"></i>
+                  <p>Travel_in</p>
+                  <i class="fab fa-instagram-square"></i>
+                  <p>Travelinn</p>
+               </div>
+            </div>
+            <div class = "footer-navigation-menu">
+               <ul>
+                  <li>Home</li>
+                  <li>About</li>
+                  <li>Faq</li>
+                  <li>Contacts</li>
+               </ul>
+            </div>
+         </div>
+      </footer>
+   </body>
 </html>
