@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#side-panel {
+	display: none;
+}
+
+.panel {
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background-color: #716E77;
+	color: white;
+	top: 0;
+	right: 0;
+	font-size: 6vh;
+	line-height: 2;
+	text-align: center;
+	left: -100%;
+}
+
+.navigation-bar-container-list-panel {
+	margin: auto;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.navigation-bar-container-list-panel li {
+	display: block;
+}
+
+.panel-close-btn {
+	position: relative;
+	left: 30vw;
+}
+
+.button-1 .btn {
+	cursor: pointer;
+}
+
+.button-1 .close {
+	display: none;
+}
+
+#side-panel:checked+.panel+.meny-button .button-1 .open {
+	display: none;
+}
+
+#side-panel:checked+.panel+.meny-button .button-1 .close {
+	display: block;
+}
+
+#side-panel:checked+.panel {
+	left: 0;
+}
