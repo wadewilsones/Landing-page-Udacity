@@ -2,34 +2,59 @@
 <html>
   <head>
     	<title>Norway bus tour!</title>
-    	<link rel="stylesheet" href="style.css">
+    	<link rel="stylesheet" href="css/style.css">
     	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas Neue">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<script src="https://kit.fontawesome.com/0d5afa920e.js" crossorigin="anonymous"></script>
-  
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/app.js"></script>
   </head>
   <body>
     <header>
       <nav class = "navigation-bar">
 	<div class = "navigation-bar-container">
-        	<h5 class ="navigation-bar-container-logo">Travel In</h5>
+        	<h5 class ="navigation-bar-container-logo">Travel In
+				<!--Side panel for mobiles and tables-->
+				<input type="checkbox" id = "side-panel"/>
+				<div class ="panel">
+					<label class ="panel-close-btn" for="side-panel"><span class="material-icons">
+						clear</span></label>
+					<ul class = "navigation-bar-container-list-panel">
+						<a href = "#title"><li>Home</li></a>
+						<a href = "#about"><li>About</li></a>
+						<a href = "#Faq"><li>Faq</li></a>
+						<a href = "#contacts"><li>Contacts</li></a>
+					  </ul>
+				</div>
+				<div class = "meny-button">
+					<label class = "button-1" for ="side-panel">
+					<div class ="btn open"><span class="material-icons"  id ="nav-icon" style = "font-size:40px;">dehaze</span></div>
+					<div class ="btn close"> <span class="material-icons"  id ="nav-icon" style = "font-size:40px;">dehaze</span></div>
+				</label>
+				</div>
+			</h5>
+				<!--Side panel for mobiles and tables ends-->
        			 <ul class = "navigation-bar-container-list">
           		<a href = "#title"><li>Home</li></a>
           		<a href = "#about"><li>About</li></a>
           		<a href = "#Faq"><li>Faq</li></a>
           		<a href = "#contacts"><li>Contacts</li></a>
         		</ul>
- 		<h5 class = "navigation-bar-container-phone-number"><span class="material-icons" style="font-size:20px; font-color:white; margin-right:5px;">call</span>+ 1 (111) 123-43-6789</h5>
+ 		<h5 class = "navigation-bar-container-phone-number"><span class="material-icons" style="font-size:20px; color:white; margin-right:5px;">call</span>+ 1 (111) 123-43-6789</h5>
 	</div>
       </nav>
     </header>
     <main>
       <section class = "section-title-page" id = "title">
 <div class = "section-title-page-container">
+	<video autoplay muted loop id= "cover-video">
+	<source src="/Работа/udacity/Landing-page-Udacity-main/img/main.mp4" ></video>
+	<div class = "content">
         <h3>Bus Tour In</h3>
         <h1>Norway</h1>
         <input type ="button" value ="Fill In" class = "title-page-button">
+	</div>
 </div>
       </section>
       <section class = "section-second-about"  id = "about">
@@ -45,6 +70,7 @@
 			<div class = "section-about-infoblocks-3">
        				<img src ="https://cdn.pixabay.com/photo/2020/03/27/15/31/norway-4973912_960_720.jpg" alt ="Mountains" class ="about-pics"> <h5>only 500$ per person for a whole week in Norway</h5>
 	 	</div>
+		 <div class="button-scroll-top" ><span class="material-icons"  style="font-size:30px;"id = "top-btn">keyboard_arrow_up</span></div>
       </section>
       <section class = "section-Faq" id = "Faq">
 	<div class = "section-Faq-container">
@@ -101,8 +127,8 @@
 	<div class = "footer-container">
 	  <div class = "footer-container-info-and-social">
       		<div class = "footer-contact-info">
-        	  <p><span class="material-icons" style="font-size:20px; font-color:white; margin-right:5px;">call</span>+1 (123) 456-7890</p>
-        	  <p><span class="material-icons" style="font-size:20px; font-color:white; margin-right:5px;">email</span>Travelinninfo@travelin.com</p>
+        	  <p><span class="material-icons" style="font-size:20px; color:white; margin-right:5px;">call</span>+1 (123) 456-7890</p>
+        	  <p><span class="material-icons" style="font-size:20px; color:white; margin-right:5px;">email</span>Travelinninfo@travelin.com</p>
       		</div>
       		<div class = "footer-social-info">
         	   <i class="fab fa-twitter-square"></i><p>@travelin</p>
