@@ -1,5 +1,5 @@
 # Landing-page-Udacity
-landing page (Norway bus tour) as a course work for Udacity.
+Landing page (Norway bus tour) as a course work for Udacity.
 
 ## Table of Contents
 	
