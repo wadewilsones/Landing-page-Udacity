@@ -24,4 +24,3 @@ Project has 4 files: index.html, css folder (4 files), js folder, img folder.
 
 [Icons](https://kit.fontawesome.com/0d5afa920e.js"crossorigin="anonymous)
 
-[JQuery](https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js)
